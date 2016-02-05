@@ -14,6 +14,21 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    // 画面が表示された時
+    override func viewWillAppear(animated: Bool) {
+        // AppDelegate にアクセスするための準備をして
+        var myAp = UIApplication.sharedApplication().delegate as!  AppDelegate
+        
+        // プロパティの値を書き換える
+        myAp.myCount++
+        
+        print("1画面目 count=\(myAp.myCount)")
+        
+        //バッジを表示
+        tabBarItem.badgeValue = "new"
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

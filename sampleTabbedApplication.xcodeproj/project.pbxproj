@@ -15,6 +15,7 @@
 		1BCCB0F71C63186500C99AA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCCB0F51C63186500C99AA7 /* LaunchScreen.storyboard */; };
 		1BCCB1021C63186500C99AA7 /* sampleTabbedApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCCB1011C63186500C99AA7 /* sampleTabbedApplicationTests.swift */; };
 		1BCCB10D1C63186500C99AA7 /* sampleTabbedApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCCB10C1C63186500C99AA7 /* sampleTabbedApplicationUITests.swift */; };
+		1BCCB11B1C6322B300C99AA7 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCCB11A1C6322B300C99AA7 /* thirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1BCCB1081C63186500C99AA7 /* sampleTabbedApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTabbedApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCCB10C1C63186500C99AA7 /* sampleTabbedApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleTabbedApplicationUITests.swift; sourceTree = "<group>"; };
 		1BCCB10E1C63186500C99AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BCCB11A1C6322B300C99AA7 /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1BCCB0EC1C63186500C99AA7 /* FirstViewController.swift */,
 				1BCCB0EE1C63186500C99AA7 /* SecondViewController.swift */,
 				1BCCB0F01C63186500C99AA7 /* Main.storyboard */,
+				1BCCB11A1C6322B300C99AA7 /* thirdViewController.swift */,
 				1BCCB0F31C63186500C99AA7 /* Assets.xcassets */,
 				1BCCB0F51C63186500C99AA7 /* LaunchScreen.storyboard */,
 				1BCCB0F81C63186500C99AA7 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				1BCCB0EF1C63186500C99AA7 /* SecondViewController.swift in Sources */,
 				1BCCB0EB1C63186500C99AA7 /* AppDelegate.swift in Sources */,
+				1BCCB11B1C6322B300C99AA7 /* thirdViewController.swift in Sources */,
 				1BCCB0ED1C63186500C99AA7 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
